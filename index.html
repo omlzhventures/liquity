@@ -1,0 +1,1976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+<pre><!DOCTYPE html>
+<html
+lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0" />
+<title>Liquidity 20 Momentum
+Alternative Fund</title>
+<!--
+Tailwind
+CSS -->
+<script
+src
+="
+https://cdn.tailwindcss.com
+"></script>
+<!--
+Font
+Awesome -->
+<link
+rel
+="stylesheet"
+href="
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
+"
+/>
+<!--
+Google
+Font -->
+<link
+href="
+https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap
+"
+rel
+="stylesheet"
+/>
+<!--
+Custom
+Styles -->
+<style>
+:root
+{
+--dark-blue: #
+0a0f2c;
+--electric-blue: #
+1e2a78;
+--neon-green: #
+00ff9d;
+}
+body {
+font-family: 'DM Sans', sans-
+serif;
+background: linear-
+gradient(
+135deg, var(--dark-blue),
+var(--electric-blue));
+color
+: #
+fff;
+min-height:
+100vh;
+}
+/* --- Buttons
+------------------------------------------------------ */
+.neon
+-
+btn
+{
+background:
+transparent;
+color
+:
+var(
+--neon-green);
+border: 2px solid
+var(
+--neon-green);
+box-shadow: 0 0 10px
+var(
+--neon-green), inset 0 0 10px
+var(--neon-green);
+transition: all 0.3s
+ease;
+}
+.
+neon
+-btn:hover
+{
+background:
+var(
+--neon-green);
+color
+:
+var(
+--dark-blue);
+box-shadow: 0 0 20px
+var(
+--neon-green), 0 0 40px
+var(--neon-green);
+transform:
+translateY
+(-2px
+);
+}
+/* --- Headings
+& underlines --------------------------------------- */
+.glow
+-text {
+text-shadow: 0 0 8px
+rgba
+(
+0, 255, 157, 0.6);
+}
+.section
+-title {
+position:
+relative;
+display: inline-
+block;
+}
+.section
+-title::after {
+content: '
+';
+position:
+absolute;
+bottom: -
+8px;
+left:
+0;
+width:
+100%;
+height:
+3px;
+background:
+var(
+--neon-green);
+transform:
+scaleX
+(
+0);
+transform-origin:
+left;
+transition: transform 0.3s
+ease;
+}
+.
+section
+-title:hover
+::after
+{
+transform:
+scaleX
+(
+1);
+}
+/* --- Animations
+--------------------------------------------------- */
+.fade
+-in { animation:
+fadeIn
+1s
+ease-in }
+@keyframes
+fadeIn
+{ from
+{opacity:0}
+to{opacity:1} }
+.slide
+-up { animation:
+slideUp
+0.8s ease-out }
+@keyframes
+slideUp
+{
+from {opacity:0;
+transform:translateY
+(50px)}
+to
+{
+opacity:1;
+transform:translateY
+(0)}
+}
+/* --- Reusable
+blocks --------------------------------------------- */
+.logo
+-grid {
+display:
+grid;
+grid-template-columns:
+repeat(
+auto-fill, minmax(150px,
+1fr));
+gap:
+30px;
+}
+.logo
+-item {
+background:
+rgba
+(
+255,255,255,0.05);
+backdrop-filter: blur(10px
+);
+border-radius:
+10px;
+padding:
+20px;
+display:flex
+;
+justify-content:center
+;
+align-items:center
+;
+transition: all .3s
+ease;
+height:
+100px;
+}
+.
+logo
+-item:hover
+{
+transform:
+translateY
+(-5px
+);
+box-shadow: 0 10px 20px
+rgba
+(
+0,0,0,.2);
+background:
+rgba
+(
+255,255,255,.1);
+}
+.team
+-card {
+background:
+rgba
+(
+255,255,255,0.05);
+backdrop-filter: blur(10px
+);
+border-radius:
+10px;
+overflow:
+hidden;
+transition: all .3s
+ease;
+}
+.
+team
+-card:hover
+{
+transform:
+translateY
+(-10px
+);
+box-shadow: 0 15px 30px
+rgba
+(
+0,0,0,.3);
+}
+.team
+-
+img
+{ height:300px;
+background-size:cover
+;
+background-position:center
+}
+.document
+-card,
+.news
+-card {
+background:
+rgba
+(
+255,255,255,0.05);
+border-radius:
+8px;
+overflow:hidden
+;
+transition: all .3s
+ease;
+}
+.
+document
+-card:hover
+,
+.
+news
+-card:hover
+{
+transform:
+translateY
+(-5px
+);
+box-shadow: 0 10px 20px
+rgba
+(
+0,0,0,.2);
+}
+/* --- Mobile
+menu -------------------------------------------------- */
+.mobile
+-menu { transition: all .3s ease; max-height:0;
+overflow:hidden
+}
+.mobile
+-
+menu.open
+{
+max-height:500px }
+/* --- Tables
+------------------------------------------------------- */
+.company
+-table { width:100%;
+border-collapse:collapse
+}
+.company
+-table
+th
+, .company-table
+td {
+padding: 12px 15px;
+text-
+align:left
+;
+border-bottom:1px solid
+rgba
+(
+255,255,255,.1);
+}
+.company
+-table
+th
+{
+background:
+rgba
+(
+0,255,157,.1);
+color:var
+(--neon-green);
+}
+.company
+-table
+tr:hover
+{
+background:
+rgba
+(255,255,255,.05) }
+/* --- Contact
+Form ------------------------------------------------ */
+.form
+-input {
+background:
+rgba
+(
+255,255,255,0.1);
+border: 1px solid
+rgba
+(
+255,255,255,0.2);
+color
+:
+white;
+transition: all 0.3s
+ease;
+}
+.
+form
+-input:focus
+{
+outline:
+none;
+border-
+color
+:
+var(
+--neon-green);
+box-shadow: 0 0 0 3px
+rgba
+(
+0,255,157,0.2);
+}
+/* --- Responsive
+tweaks ------------------------------------------- */
+@media (
+max-width
+: 768px) {
+.logo
+-grid { grid-template-columns: repeat(auto-
+fill,minmax
+(120px,1fr)); gap:15px }
+.team
+-
+img
+{ height:200px }
+}
+</style>
+</head>
+<body class="relative">
+<!--
+========================== NAVBAR ========================== -->
+<nav class="fixed w-full
+bg
+-gradient-to-r from-[#0a0f2c] to-[#1e2a78] shadow-
+lg
+z-50">
+<div
+class="container mx-auto px-4 py-3 flex items-
+center
+justify-between">
+<a
+href
+="#" class="text-2xl
+font-bold glow-text">
+<span class="text-white">LIQUIDITY</span><span
+class="text-[#00ff9d]">20</span>
+</a>
+<!--
+Desktop links -->
+<div class="hidden
+md:flex
+space-x-8">
+<a
+href
+="#home"      
+class="nav-link text-white
+hover:text
+-[#00ff9d]">Home</a>
+<a
+href
+="#strategy"  
+class="nav-link text-white
+hover:text
+-[#00ff9d]">Strategy</a>
+<a
+href
+="#index"     
+class="nav-link text-white
+hover:text
+-[#00ff9d]">Index</a>
+<a
+href
+="#holdings"  
+class="nav-link text-white
+hover:text
+-[#00ff9d]">Holdings</a>
+<a
+href
+="#team"      
+class="nav-link text-white
+hover:text
+-[#00ff9d]">Team</a>
+<a
+href
+="#documents
+" 
+class
+="nav-link text-white
+hover:text
+-[#00ff9d]">Documents</a>
+<a
+href
+="#updates"   
+class="nav-link text-white
+hover:text
+-[#00ff9d]">Updates</a>
+<a
+href
+="#contact"   
+class="nav-link neon-
+btn
+px-4 py-2
+rounded-md">Contact</a>
+</div>
+<!--
+Burger -->
+<button id="mobile-menu-button" class="
+md:hidden
+text-white
+focus:outline-none
+">
+<
+i
+class="
+fas
+fa-bars text-2xl"></
+i
+>
+</button>
+</div>
+<!--
+Mobile menu -->
+<div
+id="mobile-menu" class="mobile-menu
+md:hidden
+">
+<div class="pt-4 pb-2 space-y-3">
+<a
+href
+="#home"      
+class="block px-3 py-2 text-white
+hover:text
+-[#00ff9d]">Home</a>
+<a
+href
+="#strategy"  
+class="block px-3 py-2 text-white
+hover:text
+-[#00ff9d]">Strategy</a>
+<a
+href
+="#index"     
+class="block px-3 py-2 text-white
+hover:text
+-[#00ff9d]">Index</a>
+<a
+href
+="#holdings"  
+class="block px-3 py-2 text-white
+hover:text
+-[#00ff9d]">Holdings</a>
+<a
+href
+="#team"      
+class="block px-3 py-2 text-white
+hover:text
+-[#00ff9d]">Team</a>
+<a
+href
+="#documents
+" 
+class
+="block px-3 py-2 text-white
+hover:text
+-[#00ff9d]">Documents</a>
+<a
+href
+="#updates"   
+class="block px-3 py-2 text-white
+hover:text
+-[#00ff9d]">Updates</a>
+<a
+href
+="#contact"   
+class="block px-3 py-2 neon-
+btn
+rounded-md text-
+center
+">Contact Us</a>
+</div>
+</div>
+</nav>
+<!--
+========================== HERO ============================ -->
+<section id="home"
+class="min-h-screen flex items-
+center
+justify-
+center
+relative overflow-hidden pt-20">
+<!--
+overlay -->
+<div
+class="absolute inset-0
+bg
+-gradient-to-b
+from-[#0a0f2c] via-[#1e2a78] to-[#0a0f2c] opacity-90"></div>
+<div
+class="absolute inset-0 bg-[url('
+https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1964&q=80'
+)]
+bg
+-cover
+bg-center
+mix-blend-overlay opacity-20"
+></div>
+<div
+class="container mx-auto px-4 relative z-10 text-
+center
+slide-up">
+<h1 class="text-4xl md:text-6xl font-bold mb-6">
+<span class="text-white
+bg
+-clip-text
+bg
+-gradient-to-r from-blue-300 to-blue-100
+text-transparent">ACCESS THE FUTURE OF</span>
+<span class="
+bg
+-clip-text
+bg
+-gradient-to-r
+from-[#00ff9d] to-[#00ccff] text-transparent"> PRIVATE
+MARKETS</span>
+</h1>
+<p class="text-xl md:text-2xl text-gray-300 mb-10 max-w-3xl
+mx-auto">
+The Liquidity 20 Momentum Alternative Fund provides institutional investors
+with diversified exposure to
+high-growth private companies showing strong pre-IPO momentum.
+</p>
+<div class="flex flex-col
+sm:flex
+-row
+justify-
+center
+gap-4">
+<a
+href
+="#strategy" class="neon-
+btn
+px-8 py-3 rounded-md font-bold">Our
+Strategy</a>
+<a
+href
+="#contact
+" 
+class
+="
+bg
+-white text-[#0a0f2c] px-8 py-3
+rounded-md font-bold hover:bg-gray-200">Contact Us</a>
+</div>
+</div>
+</section>
+<!--
+========================== STRATEGY ======================== -->
+<section id="strategy"
+class="py-20 fade-in">
+<div
+class="container mx-auto px-4">
+<h2 class="section-title text-3xl md:text-4xl font-bold mb-16 text-
+center
+">
+<span class="text-white">OUR</span><span
+class="text-[#00ff9d]"> INVESTMENT STRATEGY</span>
+</h2>
+<div class="grid
+md:grid
+-cols-3
+gap-10">
+<!--
+Card 1 -->
+<div class="gradient-border p-6">
+<div class="
+bg
+-[#0a0f2c] p-6 rounded-
+lg
+h-full">
+<div class="text-[#00ff9d] text-4xl mb-4"><
+i
+class="
+fas
+fa-bullseye"></
+i
+></div>
+<h3 class="text-xl font-bold mb-3">Selection
+Criteria</h3>
+<p class="text-gray-300">
+We target private companies with clear IPO
+signals, recent funding rounds, validated
+valuations, and strong growth trajectories. Our proprietary scoring model
+identifies the
+top 20 opportunities.
+</p>
+</div>
+</div>
+<!--
+Card 2 -->
+<div class="gradient-border p-6">
+<div class="
+bg
+-[#0a0f2c] p-6 rounded-
+lg
+h-full">
+<div class="text-[#00ff9d] text-4xl mb-4"><
+i
+class="
+fas
+fa-chess"></
+i
+></div>
+<h3 class="text-xl font-bold mb-3">Governance</h3>
+<p class="text-gray-300">
+Rigorous investment committee oversight with quarterly rebalancing. Strict 10%
+position
+limits ensure diversification. Independent valuation methodology.
+</p>
+</div>
+</div>
+<!--
+Card 3 -->
+<div class="gradient-border p-6">
+<div class="
+bg
+-[#0a0f2c] p-6 rounded-
+lg
+h-full">
+<div class="text-[#00ff9d] text-4xl mb-4"><
+i
+class="
+fas
+fa-chart-line"></
+i
+></div>
+<h3 class="text-xl font-bold mb-3">Methodology</h3>
+<p class="text-gray-300">
+NAV calculated using 50% secondary market pricing, 30% last-round valuation,
+and 20% VC
+model. Continuous monitoring of IPO pipelines and private-market activity.
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--
+========================== INDEX ========================== -->
+<section id="index"
+class="py-20
+bg
+-gradient-to-b from-[#0a0f2c]
+to-[#1e2a78] fade-in">
+<div
+class="container mx-auto px-4">
+<h2 class="section-title text-3xl md:text-4xl font-bold mb-4 text-
+center
+">
+<span class="text-white">PRE-IPO MOMENTUM</span><span
+class="text-[#00ff9d]"> 20 INDEX</span>
+</h2>
+<p class="text-
+center
+text-gray-300
+mb-12">Reference Date: June 09 2025</p>
+<div class="
+bg
+-[#0a0f2c]/70 backdrop-blur-
+lg
+rounded-xl p-6 shadow-xl">
+<!--
+Table -->
+<div class="overflow-x-auto">
+<table class="company-table">
+<!--
+header -->
+<
+thead
+>
+<tr>
+<
+th
+>Company</
+th
+><
+th
+>Sector</
+th
+><
+th
+>Valuation ($
+B)<
+/
+th
+><
+th
+>IPO Signal</
+th
+><
+th
+>Weighting</
+th
+>
+</tr>
+</
+thead
+>
+<!--
+body (20 rows) -->
+<
+tbody
+>
+<tr><td>Stripe</td>       
+<td>Fintech</td>           
+<td>95.0</td><td>Strong</td><td>10.0%</td></tr>
+<tr><td>SpaceX</td>       
+<td>Aerospace</td>         
+<td>137.0</td><td>Moderate</td><td>8.5%</td></tr>
+<tr><td>Databricks</td>    <td>Data
+Analytics</td>    
+<td>38.0</td><td>Strong</td><td>9.2%</td></tr>
+<tr><td>Chime</td>        
+<td>Digital Banking</td>   
+<td>25.0</td><td>Strong</td><td>7.8%</td></tr>
+<tr><td>Discord</td>      
+<td>
+Social Media
+</td>      
+<td>15.0</td><td>Moderate</td><td>6.5%</td></tr>
+<tr><td>Epic Games</td>   
+<td>Gaming</td>            
+<td>32.0</td><td>Moderate</td><td>7.0%</td></tr>
+<tr><td>Plaid</td>        
+<td>Fintech</td>           
+<td>13.5</td><td>Strong</td><td>8.0%</td></tr>
+<tr><td>Canva</td>        
+<td>Design Software</td>   
+<td>40.0</td><td>Strong</td><td>9.5%</td></tr>
+<tr><td>Klarna</td>       
+<td>Fintech</td>           
+<td>45.6</td><td>Moderate</td><td>7.2%</td></tr>
+<tr><td>Rivian</td>       
+<td>Electric Vehicles</td
+>  <
+td>27.6</td><td>Strong</td><td>8.8%</td></tr>
+<tr><td>
+Blockchain.com
+</td><td>Crypto</td>            
+<td>14.0</td><td>Moderate</td><td>5.5%</td></tr>
+<tr><td>UiPath</td>       
+<td>Automation</td>        
+<td>35.0</td><td>Strong</td><td>8.3%</td></tr>
+<tr><td>Devoted
+Health</td><td>Healthcare</td>        
+<td>12.8</td><td>Moderate</td><td>6.0%</td></tr>
+<tr><td>Nuro</td>         
+<td>Autonomous Vehicles</td><td>8.6</td><td>Moderate</td><td>5.0%</td></tr>
+<tr><td>
+Anduril
+</td>      
+<td>
+Defense
+Tech</td>      
+<td>8.5</td><td>Strong</td><td>7.5%</td></tr>
+<tr><td>Brex</td>         
+<td>Fintech</td>           
+<td>12.3</td><td>Moderate</td><td>6.2%</td></tr>
+<tr><td>Figma</td>        
+<td>Design Software</td>   
+<td>10.0</td><td>Strong</td><td>7.8%</td></tr>
+<tr><td>Rubrik</td>       
+<td>Cybersecurity</td>     
+<td>13.0</td><td>Moderate</td><td>6.5%</td></tr>
+<tr><td>Impossible Foods</td><td>Food
+Tech</td>       
+<td>7.0</td><td>Moderate</td><td>5.5%</td></tr>
+<tr><td>Outreach</td>     
+<td>SaaS</td>              
+<td>4.3</td><td>Strong</td><td>6.0%</td></tr>
+</
+tbody
+>
+</table>
+</div>
+<!--
+Methodology & Benefits -->
+<div class="mt-10 grid
+md:grid
+-cols-2
+gap-8">
+<div>
+<h3 class="text-xl font-bold text-[#00ff9d]
+mb-4">Methodology</h3>
+<
+ul
+class="text-gray-300 space-y-2">
+<li class="flex items-start"><span
+class="text-[#00ff9d] mr-2">•</span>Selection of 20 private
+companies with strongest pre-IPO momentum</li>
+<li class="flex items-start"><span
+class="text-[#00ff9d] mr-2">•</span>Criteria: S-1 filings,
+recent funding rounds, validated valuations, clear IPO signals</li>
+<li class="flex items-start"><span
+class="text-[#00ff9d] mr-2">•</span>Maximum 10% weighting
+per company</li>
+<li class="flex items-start"><span
+class="text-[#00ff9d] mr-2">•</span>Quarterly rebalancing
+based on updated criteria</li>
+</
+ul
+>
+</div>
+<div>
+<h3 class="text-xl font-bold text-[#00ff9d] mb-4">Key
+Benefits</h3>
+<
+ul
+class="text-gray-300 space-y-2">
+<li class="flex items-start"><span
+class="text-[#00ff9d] mr-2">•</span>Diversified exposure to
+high-growth private companies</li>
+<li class="flex items-start"><span
+class="text-[#00ff9d] mr-2">•</span>Access to pre-IPO
+investment opportunities typically unavailable to most investors</li>
+<li class="flex items-start"><span
+class="text-[#00ff9d] mr-2">•</span>ETF-like approach to
+private markets</li>
+<li class="flex items-start"><span
+class="text-[#00ff9d] mr-2">•</span>Transparent NAV
+calculation methodology</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--
+========================== HOLDINGS ======================== -->
+<section id="holdings"
+class="py-20 fade-in">
+<div
+class="container mx-auto px-4">
+<h2 class="section-title text-3xl md:text-4xl font-bold mb-16 text-
+center
+">
+<span class="text-white">OUR</span><span
+class="text-[#00ff9d]"> PORTFOLIO HOLDINGS</span>
+</h2>
+<div class="logo-grid">
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/stripe.com
+"
+alt="Stripe" class="max-h-12" onerror="this.src='
+https://via.placeholder.com/150x50?text=Stripe
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/spacex.com
+"
+alt="SpaceX" class="max-h-12" onerror="this.src='
+https://via.placeholder.com/150x50?text=SpaceX
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/databricks.com
+"
+alt="Databricks" class="max-h-12" onerror="this.src='
+https://via.placeholder.com/150x50?text=Databricks
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/chime.com
+"
+alt="Chime" class="max-h-12" onerror="this.src='
+https://via.placeholder.com/150x50?text=Chime
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/discord.com
+"
+alt="Discord" class="max-h-12" onerror="this.src='
+https://via.placeholder.com/150x50?text=Discord
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/epicgames.com
+"
+alt="Epic Games" class="max-h-12" onerror="this.src='
+https://via.placeholder.com/150x50?text=Epic+Games
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/plaid.com
+"
+alt="Plaid" class="max-h-12" onerror="this.src='
+https://via.placeholder.com/150x50?text=Plaid
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/canva.com
+"
+alt="Canva" class="max-h-12" onerror="this.src='
+https://via.placeholder.com/150x50?text=Canva
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/klarna.com
+"
+alt="Klarna" class="max-h-12" onerror="this.src='
+https://via.placeholder.com/150x50?text=Klarna
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/rivian.com
+"
+alt="Rivian" class="max-h-12" onerror="this.src='
+https://via.placeholder.com/150x50?text=Rivian
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/blockchain.com
+" alt="
+Blockchain.com
+"
+class="max-h-12" onerror="this.src='
+https://via.placeholder.com/150x50?text=Blockchain
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/uipath.com
+"
+alt="UiPath" class="max-h-12" onerror="this.src='
+https://via.placeholder.com/150x50?text=UiPath
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/devoted.com
+"
+alt="Devoted Health" class="max-h-12"
+onerror="this.src='
+https://via.placeholder.com/150x50?text=Devoted
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/nuro.ai
+"
+alt="Nuro" class="max-h-12" onerror="this.src='
+https://via.placeholder.com/150x50?text=Nuro
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/anduril.com
+" alt="
+Anduril
+" class="max-h-12"
+onerror="this.src='
+https://via.placeholder.com/150x50?text=Anduril
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/brex.com
+"
+alt="Brex" class="max-h-12" onerror="this.src='
+https://via.placeholder.com/150x50?text=Brex
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/figma.com
+"
+alt="Figma" class="max-h-12" onerror="this.src='
+https://via.placeholder.com/150x50?text=Figma
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/rubrik.com
+"
+alt="Rubrik" class="max-h-12" onerror="this.src='
+https://via.placeholder.com/150x50?text=Rubrik
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/impossiblefoods.com
+"
+alt="Impossible Foods" class="max-h-12"
+onerror="this.src='
+https://via.placeholder.com/150x50?text=Impossible
+'"
+/></div>
+<div class="logo-item"><
+img
+src
+="
+https://logo.clearbit.com/outreach.io
+"
+alt="Outreach" class="max-h-12" onerror="this.src='
+https://via.placeholder.com/150x50?text=Outreach
+'"
+/></div>
+</div>
+</div>
+</section>
+<!--
+========================== TEAM =========================== -->
+<section id="team"
+class="py-20
+bg
+-gradient-to-b from-[#1e2a78]
+to-[#0a0f2c] fade-in">
+<div
+class="container mx-auto px-4">
+<h2 class="section-title text-3xl md:text-4xl font-bold mb-16 text-
+center
+">
+<span class="text-white">MEET OUR</span><span
+class="text-[#00ff9d]"> LEADERSHIP TEAM</span>
+</h2>
+<div class="grid
+md:grid
+-cols-2 lg:grid-cols-4
+gap-8">
+<!--
+Diego MASCIO -->
+<div class="team-card">
+<div class="team-
+img
+" style="
+background-image:url
+('')"></div>
+<div class="p-6">
+<h3 class="text-xl font-bold">Diego MASCIO</h3>
+<p class="text-[#00ff9d] mb-3">Founder & CIO</p>
+<p class="text-gray-300 text-
+sm
+">
+Head of private markets at ACM Capital Partner. 15+
+years
+experience
+in pre-IPO investing.
+</p>
+</div>
+</div>
+<!--
+Omar MAES -->
+<div class="team-card">
+<div class="team-
+img
+" style="
+background-image:url
+('')"></div>
+<div class="p-6">
+<h3 class="text-xl font-bold">Omar MAES</h3>
+<p class="text-[#00ff9d] mb-3"> Co-founder & Head of
+Research</p>
+<p class="text-gray-300 text-
+sm
+">
+CIO of LZH Ventures. Built proprietary IPO signal-detection models.
+</p>
+</div>
+</div>
+<!-- Pierre-Yves XXX -->
+<div class="team-card">
+<div class="team-
+img
+" style="
+background-image:url
+('')"></div>
+<div class="p-6">
+<h3 class="text-xl font-bold">Pierre-Yves XXX</h3>
+<p class="text-[#00ff9d] mb-3">Co-founder & Head of
+investor relations</p>
+<p class="text-gray-300 text-
+sm
+">
+Specializes in secondary-market transactions.
+</p>
+</div>
+</div>
+<!--
+Moulay Driss SLIMANI -->
+<div class="team-card">
+<div class="team-
+img
+" style="
+background-image:url
+('')"></div>
+<div class="p-6">
+<h3 class="text-xl font-bold">Moulay Driss SLIMANI</h3>
+<p class="text-[#00ff9d] mb-3">Co-founder &
+Advisor</p>
+<p class="text-gray-300 text-
+sm
+">
+10+ years in investment banking & innovative startup
+industry
+.
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--
+========================== DOCUMENTS ====================== -->
+<section id="documents"
+class="py-20 fade-in">
+<div
+class="container mx-auto px-4">
+<h2 class="section-title text-3xl md:text-4xl font-bold mb-16 text-
+center
+">
+<span class="text-white">FUND</span><span
+class="text-[#00ff9d]"> DOCUMENTS</span>
+</h2>
+<div class="grid
+md:grid
+-cols-3
+gap-8">
+<div class="document-card">
+<div class="text-[#00ff9d] text-3xl mb-4"><
+i
+class="
+fas
+fa-file-pdf"></
+i
+></div>
+<h3 class="text-xl font-bold mb-2">Private Placement
+Memorandum</h3>
+<p class="text-gray-300 mb-4 text-
+sm
+">Comprehensive
+document detailing the fund's strategy, terms, and risk
+factors.<
+/p>
+<a
+href
+="#" class="text-[#00ff9d]
+hover:underline
+flex items-
+center
+">Download PDF <
+i
+class="
+fas
+fa-download ml-2"></
+i
+></a>
+</div>
+<div class="document-card">
+<div class="text-[#00ff9d] text-3xl mb-4"><
+i
+class="
+fas
+fa-chart-bar"></
+i
+></div>
+<h3 class="text-xl font-bold mb-2">Q2 2025 Performance
+Report</h3>
+<p class="text-gray-300 mb-4 text-
+sm
+">Quarterly
+performance update with detailed attribution
+analysis.<
+/p>
+<a
+href
+="#" class="text-[#00ff9d]
+hover:underline
+flex items-
+center
+">Download PDF <
+i
+class="
+fas
+fa-download ml-2"></
+i
+></a>
+</div>
+<div class="document-card">
+<div class="text-[#00ff9d] text-3xl mb-4"><
+i
+class="
+fas
+fa-balance-scale"></
+i
+></div>
+<h3 class="text-xl font-bold mb-2">Regulatory
+Filings</h3>
+<p class="text-gray-300 mb-4 text-
+sm
+">All
+required SEC and regulatory documentation for the
+fund.<
+/p>
+<a
+href
+="#" class="text-[#00ff9d]
+hover:underline
+flex items-
+center
+">Download PDF <
+i
+class="
+fas
+fa-download ml-2"></
+i
+></a>
+</div>
+<div class="document-card">
+<div class="text-[#00ff9d] text-3xl mb-4"><
+i
+class="
+fas
+fa-book"></
+i
+></div>
+<h3 class="text-xl font-bold mb-2">Index Methodology</h3>
+<p class="text-gray-300 mb-4 text-
+sm
+">Detailed
+explanation of the Pre-IPO Momentum 20 Index construction
+rules.<
+/p>
+<a
+href
+="#" class="text-[#00ff9d]
+hover:underline
+flex items-
+center
+">Download PDF <
+i
+class="
+fas
+fa-download ml-2"></
+i
+></a>
+</div>
+<div class="document-card">
+<div class="text-[#00ff9d] text-3xl mb-4"><
+i
+class="
+fas
+fa-newspaper"></
+i
+></div>
+<h3 class="text-xl font-bold mb-2">Quarterly
+Newsletter</h3>
+<p class="text-gray-300 mb-4 text-
+sm
+">Q2
+2025 investor update with market commentary and portfolio
+insights.<
+/p>
+<a
+href
+="#" class="text-[#00ff9d]
+hover:underline
+flex items-
+center
+">Download PDF <
+i
+class="
+fas
+fa-download ml-2"></
+i
+></a>
+</div>
+<div class="document-card">
+<div class="text-[#00ff9d] text-3xl mb-4"><
+i
+class="
+fas
+fa-calculator"></
+i
+></div>
+<h3 class="text-xl font-bold mb-2">NAV Calculation
+Methodology</h3>
+<p class="text-gray-300 mb-4 text-
+sm
+">Detailed
+explanation of our net asset value calculation
+approach.<
+/p>
+<a
+href
+="#" class="text-[#00ff9d]
+hover:underline
+flex items-
+center
+">Download PDF <
+i
+class="
+fas
+fa-download ml-2"></
+i
+></a>
+</div>
+</div>
+</div>
+</section>
+<!--
+========================== UPDATES ======================== -->
+<section id="updates"
+class="py-20
+bg
+-gradient-to-b from-[#0a0f2c]
+to-[#1e2a78] fade-in">
+<div
+class="container mx-auto px-4">
+<h2 class="section-title text-3xl md:text-4xl font-bold mb-16 text-
+center
+">
+<span class="text-white">FUND</span><span
+class="text-[#00ff9d]"> UPDATES</span>
+</h2>
+<div class="grid
+md:grid
+-cols-2 lg:grid-cols-3
+gap-8">
+<!--
+News 1 -->
+<div class="news-card">
+<div class="h-48 bg-[url('
+https://images.unsplash.com/photo-1642790559313-d2c2e899f3b1?auto=format&fit=crop&w=1470&q=80'
+)]
+bg
+-cover
+bg-center
+"></div>
+<div class="p-6">
+<p class="text-[#00ff9d] text-
+sm
+mb-2">June 15 2025</p>
+<h3 class="text-xl font-bold mb-3">Stripe Files S-1 for
+IPO</h3>
+<p class="text-gray-300 mb-4">
+Our top holding Stripe has officially filed for IPO, validating our early
+position. Expected
+pricing in Q3.
+</p>
+<a
+href
+="#" class="text-white
+hover:text
+-[#00ff9d] flex items-
+center
+">Read
+More <
+i
+class="
+fas
+fa-arrow-right ml-2"></
+i
+></a>
+</div>
+</div>
+<!--
+News 2 -->
+<div class="news-card">
+<div class="h-48 bg-[url('
+https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&w=1470&q=80'
+)]
+bg
+-cover
+bg-center
+"></div>
+<div class="p-6">
+<p class="text-[#00ff9d] text-
+sm
+mb-2">May 30 2025</p>
+<h3 class="text-xl font-bold mb-3">SpaceX Raises $750M at $137B
+Valuation</h3>
+<p class="text-gray-300 mb-4">
+SpaceX completed a new funding round led by Fidelity, boosting its valuation
+and reinforcing
+our thesis on aerospace innovation.
+</p>
+<a
+href
+="#" class="text-white
+hover:text
+-[#00ff9d] flex items-
+center
+">Read
+More <
+i
+class="
+fas
+fa-arrow-right ml-2"></
+i
+></a>
+</div>
+</div>
+<!--
+News 3 -->
+<div class="news-card">
+<div class="h-48 bg-[url('
+https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1470&q=80'
+)]
+bg
+-cover
+bg-center
+"></div>
+<div class="p-6">
+<p class="text-[#00ff9d] text-
+sm
+mb-2">May 07 2025</p>
+<h3 class="text-xl font-bold mb-3">Databricks Announces
+Strategic Partnership with NVIDIA</h3>
+<p class="text-gray-300 mb-4">
+The collaboration accelerates AI workloads in the cloud, adding momentum to
+Databricks'
+pre-IPO growth narrative.
+</p>
+<a
+href
+="#" class="text-white
+hover:text
+-[#00ff9d] flex items-
+center
+">Read
+More <
+i
+class="
+fas
+fa-arrow-right ml-2"></
+i
+></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--
+========================== CONTACT
+======================== -->
+<section id="contact"
+class="py-20 fade-in">
+<div
+class="container mx-auto px-4">
+<h2 class="section-title text-3xl md:text-4xl font-bold mb-16 text-
+center
+">
+<span class="text-white">CONTACT</span><span
+class="text-[#00ff9d]"> OUR TEAM</span>
+</h2>
+<div class="max-w-4xl mx-auto
+bg
+-[#0a0f2c]/70
+backdrop-blur-
+lg
+rounded-xl p-8 shadow-xl">
+<div class="grid
+md:grid
+-cols-2
+gap-8">
+<div>
+<h3 class="text-xl font-bold mb-4">Get in Touch</h3>
+<p class="text-gray-300 mb-6">
+Interested in learning more about the Liquidity 20 Momentum Alternative Fund?
+Our investor relations team is available to answer your questions.
+</p>
+<div class="space-y-4">
+<div class="flex items-start">
+<div class="text-[#00ff9d] mr-4 mt-1"><
+i
+class="
+fas
+fa-map-marker-alt"></
+i
+></div>
+<div>
+<h4 class="font-bold">Headquarters</h4>
+<p class="text-gray-300">Monaco</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="text-[#00ff9d] mr-4 mt-1"><
+i
+class="
+fas
+fa-phone-alt"></
+i
+></div>
+<div>
+<h4 class="font-bold">Phone</h4>
+<p class="text-gray-300"
+>(
++44) 7910
+339433</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="text-[#00ff9d] mr-4 mt-1"><
+i
+class="
+fas
+fa-envelope"></
+i
+></div>
+<div>
+<h4 class="font-bold">Email</h4>
+<p class="text-gray-300">
+relations@liquidity20.com
+</p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<form id="contact-form" class="space-y-4">
+<div>
+<label for="name" class="block text-
+sm
+font-medium mb-1">Name</label>
+<input type="text" id="name" name="name"
+class="form-input w-full px-4 py-2 rounded-md" required>
+</div>
+<div>
+<label for="email" class="block text-
+sm
+font-medium mb-1">Email</label>
+<input type="email" id="email" name="email"
+class="form-input w-full px-4 py-2 rounded-md" required>
+</div>
+<div>
+<label
+for="subject" class="block text-
+sm
+font-medium mb-1">Subject</label>
+<select id="subject" name="subject" class="form-input
+w-full px-4 py-2 rounded-md" required>
+<option value="" disabled selected>Select a
+topic</option>
+<option value="investor">Investor Inquiry</option>
+<option value="press">Press Inquiry</option>
+<option value="partnership">Partnership
+Opportunity</option>
+<option value="other">Other</option>
+</select>
+</div>
+<div>
+<label for="message" class="block text-
+sm
+font-medium mb-1">Message</label>
+<
+textarea
+id="message"
+name="message" rows="4" class="form-input w-full px-4
+py-2 rounded-md" required></
+textarea
+>
+</div>
+<button type="submit" class="neon-
+btn
+w-full px-6 py-3 rounded-md font-bold">
+Send Message <
+i
+class="
+fas
+fa-paper-plane ml-2"></
+i
+>
+</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--
+========================== FOOTER ========================= -->
+<footer class="
+bg
+-[#0a0f2c] py-10 fade-in">
+<div
+class="container mx-auto px-4">
+<div class="flex flex-col
+md:flex
+-row
+justify-between items-
+center
+">
+<div class="mb-6
+md:mb
+-0">
+<a
+href
+="#" class="text-2xl
+font-bold glow-text">
+<span class="text-white">LIQUIDITY</span><span
+class="text-[#00ff9d]">20</span>
+</a>
+<p class="text-gray-400 mt-2 text-
+sm
+">
+Momentum Alternative Fund
+</p>
+</div>
+<div class="flex space-x-6">
+<a
+href
+="#" class="text-gray-400
+hover:
+text
+-[#00ff9d]"><i
+class="fab fa-
+linkedin
+-in text-xl"></
+i
+></a>
+<a
+href
+="#" class="text-gray-400
+hover:
+text
+-[#00ff9d]"><i
+class="fab fa-twitter text-xl"></
+i
+></a>
+<a
+href
+="#" class="text-gray-400
+hover:
+text
+-[#00ff9d]"><i
+class="
+fas
+fa-envelope text-xl"></
+i
+></a>
+</div>
+</div>
+<div class="border-t border-gray-800 mt-8 pt-8 flex flex-col
+md:flex
+-row
+justify-between items-
+center
+">
+<p class="text-gray-500 text-
+sm
+mb-4
+md:mb
+-0">
+&copy; 2025 Liquidity 20 Momentum Alternative Fund. All rights reserved.
+</p>
+<div class="flex space-x-6">
+<a
+href
+="#" class="text-gray-500
+hover:
+text
+-[#00ff9d] text-
+sm
+">Privacy Policy</a>
+<a
+href
+="#" class="text-gray-500
+hover:
+text
+-[#00ff9d] text-
+sm
+">Terms of Service</a>
+<a
+href
+="#" class="text-gray-500
+hover:
+text
+-[#00ff9d] text-
+sm
+">Disclosures</a>
+</div>
+</div>
+</div>
+</footer>
+<!--
+========================== SCRIPTS ======================== -->
+<script>
+// Mobile menu toggle
+const btn   = document.getElementById('mobile-menu-button');
+const menu  = document.getElementById('mobile-menu');
+btn.addEventListener
+('click',
+() =>
+menu.classList.toggle
+('open'));
+// Smooth
+scrolling for anchor links
+document.querySelectorAll
+('a[
+href
+^="#"]').
+forEach
+(anchor
+=> {
+anchor.addEventListener
+('click',
+function (e) {
+e.preventDefault
+();
+const
+targetId
+=
+this.getAttribute
+('
+href
+');
+if (
+targetId
+=== '#')
+return;
+const
+targetElement
+=
+document.querySelector
+(
+targetId
+);
+if (
+targetElement
+) {
+// Close mobile menu if open
+if (
+menu.classList.contains
+('open'))
+{
+menu.classList.remove
+('open');
+}
+window.scrollTo
+({
+top:
+targetElement.offsetTop
+- 80,
+behavior
+: 'smooth'
+});
+}
+});
+});
+// Form
+submission
+const
+contactForm
+=
+document.getElementById
+('contact-form');
+if (
+contactForm
+) {
+contactForm.addEventListener
+('submit', function(e) {
+e.preventDefault
+();
+// Get form values
+const
+name =
+document.getElementById
+('name').value;
+const
+email =
+document.getElementById
+('email').value;
+const
+subject =
+document.getElementById
+('subject').value;
+const
+message =
+document.getElementById
+('message').value;
+// Here you would typically send the data to a server
+// For this demo, we'll just show an alert
+alert(
+`Thank you, ${name}! Your message has been
+received. We'll contact you at ${email}
+shortly.`
+);
+// Reset form
+contactForm.reset
+(
+);
+});
+}
+// Add animation
+classes when elements come into view
+const
+observerOptions
+= {
+threshold: 0.1
+};
+const
+observer = new
+IntersectionObserver
+((entries)
+=> {
+entries.forEach
+(entry =>
+{
+if (
+entry.isIntersecting
+) {
+entry.target.classList.add
+('fade-in'
+);
+observer.unobserve
+(
+entry.target
+);
+}
+});
+},
+observerOptions
+);
+// Observe all
+sections
+document.querySelectorAll
+('section').
+forEach
+(section => {
+observer.observe
+(section);
+});
+</script>
+</body>
+</html></pre>
+</body>
+</html>
